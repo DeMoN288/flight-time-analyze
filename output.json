@@ -1,0 +1,117 @@
+[ {
+  "crewMemberId" : 1,
+  "name" : "Иванов Иван Иванович",
+  "months" : [ {
+    "month" : "2021-04",
+    "totalFlightHours" : 8.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  }, {
+    "month" : "2021-03",
+    "totalFlightHours" : 12.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  }, {
+    "month" : "2021-02",
+    "totalFlightHours" : 32.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  }, {
+    "month" : "2020-12",
+    "totalFlightHours" : 24.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  }, {
+    "month" : "2021-01",
+    "totalFlightHours" : 20.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  } ]
+}, {
+  "crewMemberId" : 2,
+  "name" : "Петров Петр Петрович",
+  "months" : [ {
+    "month" : "2021-04",
+    "totalFlightHours" : 20.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  }, {
+    "month" : "2021-02",
+    "totalFlightHours" : 32.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  }, {
+    "month" : "2020-12",
+    "totalFlightHours" : 24.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  }, {
+    "month" : "2021-01",
+    "totalFlightHours" : 8.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  } ]
+}, {
+  "crewMemberId" : 3,
+  "name" : "Сидоров Сидор Сидорович",
+  "months" : [ {
+    "month" : "2021-04",
+    "totalFlightHours" : 12.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  }, {
+    "month" : "2021-02",
+    "totalFlightHours" : 40.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  }, {
+    "month" : "2021-01",
+    "totalFlightHours" : 20.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  } ]
+}, {
+  "crewMemberId" : 4,
+  "name" : "Кузнецов Алексей Петрович",
+  "months" : [ {
+    "month" : "2021-04",
+    "totalFlightHours" : 12.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  }, {
+    "month" : "2021-03",
+    "totalFlightHours" : 16.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  } ]
+}, {
+  "crewMemberId" : 5,
+  "name" : "Смирнова Ольга Ивановна",
+  "months" : [ {
+    "month" : "2021-04",
+    "totalFlightHours" : 4.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  }, {
+    "month" : "2021-03",
+    "totalFlightHours" : 24.0,
+    "over80Hours" : false,
+    "over36HoursWeek" : false,
+    "over8HoursDay" : false
+  } ]
+} ]

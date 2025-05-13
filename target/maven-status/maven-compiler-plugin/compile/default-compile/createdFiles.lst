@@ -1,0 +1,8 @@
+com\company\flighttime\model\FlightReport.class
+com\company\flighttime\model\Flight.class
+com\company\flighttime\Main.class
+com\company\flighttime\util\JsonWriter.class
+com\company\flighttime\model\FlightReport$MonthInfo.class
+com\company\flighttime\model\CrewMember.class
+com\company\flighttime\parser\InputDataParser.class
+com\company\flighttime\service\FlightTimeCalculator.class
