@@ -1,5 +1,10 @@
 # Flight Time Analyzer
 
+Анализатор налётного времени экипажа по входным данным.  
+Проект на Java с использованием Maven.
+
+---
+
 ## Структура каталогов
 
 ```
@@ -30,8 +35,10 @@ flight-time-analyzer/
 │                   └── flighttime/
 │                       └── service/
 │                           └── FlightTimeCalculatorTest.java
-├��─ pom.xml
+├── pom.xml
 ```
+
+---
 
 ## Описание основных классов
 
@@ -43,22 +50,48 @@ flight-time-analyzer/
 - **resources/input.txt** — пример входного файла.
 - **test/** — unit-тесты.
 
+---
+
+## Требования
+
+- Java 11 или новее ([скачать JDK](https://adoptopenjdk.net/) или [Oracle JDK](https://www.oracle.com/java/technologies/downloads/))
+- Maven 3.6+ ([скачать Maven](https://maven.apache.org/download.cgi))
+
+---
+
+## Установка зависимостей
+
+Все необходимые библиотеки автоматически скачаются Maven при сборке проекта.  
+Ручная установка зависимостей не требуется.
+
+---
+
 ## Как собрать и запустить
 
-1. **Сборка:**
+1. **Склонируйте репозиторий:**
+   ```bash
+   git clone https://github.com/yourusername/flight-time-analyzer.git
+   cd flight-time-analyzer
+   ```
+
+2. **Соберите проект и скачайте зависимости:**
    ```bash
    mvn clean package
    ```
 
-2. **Запуск:**
+3. **Запустите приложение:**
    ```bash
    java -jar target/flight-time-analyzer-1.0-SNAPSHOT.jar src/main/resources/input.txt output.json
    ```
+   - Первый аргумент — путь к входному файлу (например, `src/main/resources/input.txt`)
+   - Второй аргумент — путь к выходному JSON-файлу (например, `output.json`)
 
-3. **Запуск тестов:**
+4. **Запустите тесты:**
    ```bash
    mvn test
    ```
+
+---
 
 ## Пример входного файла (`input.txt`)
 
@@ -72,6 +105,8 @@ SU123;A320;RA-12345;2021-01-10T08:00;2021-01-10T12:00;SVO;LED;1,2
 SU124;A320;RA-12345;2021-01-15T09:00;2021-01-15T13:00;LED;SVO;1
 SU125;A320;RA-12345;2021-01-22T10:00;2021-01-22T14:00;SVO;LED;2
 ```
+
+---
 
 ## Пример выходного файла (`output.json`)
 
@@ -92,3 +127,18 @@ SU125;A320;RA-12345;2021-01-22T10:00;2021-01-22T14:00;SVO;LED;2
   }
 ]
 ```
+
+---
+
+## Полезные ссылки
+
+- [Установка JDK](https://adoptopenjdk.net/)
+- [Установка Maven](https://maven.apache.org/install.html)
+- [Документация Maven](https://maven.apache.org/guides/)
+- [Формат входного файла](#пример-входного-файла-inputtxt)
+
+---
+
+## Контакты
+
+Если возникли вопросы — пишите в Issues или открывайте Pull Request!
