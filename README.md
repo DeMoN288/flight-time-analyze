@@ -70,7 +70,7 @@ flight-time-analyzer/
 
 1. **Склонируйте репозиторий:**
    ```bash
-   git clone https://github.com/yourusername/flight-time-analyzer.git
+   git clone https://github.com/DeMoN288/flight-time-analyzer.git
    cd flight-time-analyzer
    ```
 
